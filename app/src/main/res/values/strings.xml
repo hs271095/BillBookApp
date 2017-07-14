@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bill Book Online</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="update_company_profile">Update Company Profile</string>
+    <string name="company_name">Company Name*</string>
+    <string name="company_name_hint">XYZ Company</string>
+    <string name="compnay_pan_no">Compnay PAN No.*</string>
+    <string name="company_pan_no_hint">Eg. ABECP1234P</string>
+    <string name="insert_your_company_logo">Insert Your Company Logo*</string>
+    <string name="add_comany_logo">ADD</string>
+    <string name="crop_company_logo">CROP</string>
+    <string name="company_service_tax_no">Company\'s Service Tax No.</string>
+    <string name="company_service_tax_no_hint">AAXFXXXXQ5TXXXX</string>
+    <string name="company_tin_no">Company\'s TIN No.</string>
+    <string name="company_tin_hint">XXXXXXXXXXXXX</string>
+    <string name="service_sector">Service Sector*</string>
+    <string name="list_of_services_provided">List of Services Provided</string>
+    <string name="add_service">ADD</string>
+    <string name="save_profile">Save Profile</string>
+
+
+
+
+</resources>

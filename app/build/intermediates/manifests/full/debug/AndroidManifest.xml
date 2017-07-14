@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bangalore.bms.billbookonline"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="bangalore.bms.billbookonline.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.HomePage" >
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.LoginPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MA" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.RegisterPage" />
+        <activity android:name="bangalore.bms.billbookonline.Validation_page" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAI" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.UpdateCompanyLayout" >
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.BillTemplateActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.IN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.Create_subuser" >
+            <intent-filter>
+                <action android:name="android.intent.action.IN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.Generate_bill" />
+    </application>
+
+</manifest>

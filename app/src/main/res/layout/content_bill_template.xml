@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---Edited by Dinesh on 09-07-2017-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundForOtherActivites"
+    tools:context=".BillTemplateActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:textColor="@color/textColorOnGreyBackground"
+        android:background="@color/backgroundLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create your bill template"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        tools:ignore="HardcodedText"
+        app:layout_constraintHorizontal_bias="0.517" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Template Name*"
+                app:layout_constraintBaseline_toBaselineOf="@+id/templateName"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/templateName"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toRightOf="@+id/textView3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Bill Number Format*"
+                app:layout_constraintBaseline_toBaselineOf="@+id/billNumberFormatInput"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/billNumberFormatInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/textView4"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/templateName"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Bill Date Format*"
+                app:layout_constraintBaseline_toBaselineOf="@+id/billDateFormatInput"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/billDateFormatInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType=""
+                app:layout_constraintLeft_toRightOf="@+id/textView5"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/billNumberFormatInput"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Mode of Payment*"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/billDateFormatInput"
+                tools:ignore="HardcodedText" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Cash"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Cheque"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/radioButton1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="8dp"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="DD"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/radioButton2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="8dp"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Online"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintLeft_toRightOf="@+id/radioButton3"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="8dp"
+                        tools:ignore="HardcodedText" />
+                </android.support.constraint.ConstraintLayout>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Supplier's Reference No."
+                app:layout_constraintBaseline_toBaselineOf="@+id/supplierRefNoInput"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="8dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/supplierRefNoInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintLeft_toRightOf="@+id/textView7"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Buyer's Order No."
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBaseline_toBaselineOf="@+id/buyerOrderNoInput"
+                android:layout_marginStart="8dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/buyerOrderNoInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/textView8"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/supplierRefNoInput"
+                app:layout_constraintHorizontal_bias="0.504"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Terms of Delivery"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/buyerOrderNoInput"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/termsOfDeliveryInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Service Sector"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/termsOfDeliveryInput"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spinnerServiceSectorInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Service Type / Package"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerServiceSectorInput"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spinnerServiceTypeInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VAT to be added"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/radioGroup2"
+                android:layout_marginTop="8dp"
+                tools:ignore="HardcodedText" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toRightOf="@+id/textView2"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerServiceTypeInput"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/radioGroup2"
+                app:layout_constraintHorizontal_bias="0.507"
+                tools:ignore="MissingPrefix">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:text="Yes"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        tools:ignore="HardcodedText"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="8dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/textColorOnGreyBackground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/radioButton5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="8dp"
+                        tools:ignore="HardcodedText" />
+
+                </android.support.constraint.ConstraintLayout>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Discount Particular"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBaseline_toBaselineOf="@+id/discountInput"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/discountInput"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorOnGreyBackground"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/textView12"
+                android:layout_marginLeft="8dp" />
+
+            <Button
+                android:id="@+id/createTemplate"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/buttonColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Create Template"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/discountInput"
+                android:layout_marginLeft="32dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="32dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="HardcodedText" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
