@@ -3,138 +3,210 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_e6a3d8b0452c50adffe163ae794b61d77638e8f1.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_cc4a26ab46369ba2c1b36411217a67414e2fa480.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_2526a733a28c8a0417d4591658b950855bf05339.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_20ee33b4567c9015779f0a86e85bd4d702ce82cf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_f129e312604121d04334db16f840d76f875dbabd.jar" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_352f566564ee54637bd6e1224d48adcbab1364f0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_3a193744ee18370c9a53d10c237de314a74d63be.jar" />
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-11.0.2_6d9422bd99ed0d0c9533e405f87eac26bd15e2cc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_f17e8487f37c7be0f0acfe8f605321699e3b4b3d.jar" />
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_ba6cabb85770af912c48b822f821d2f60f64bc7e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_e3a62116a6a419d493567a6dc66279d51436b80a.jar" />
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-11.0.2_8dccbea005d97eef0d3188ea4ae5eb80a0ac5c01.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_9005401fd69c3bba09a398b641e38fd0858ecf1d.jar" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_773be36a2191c502ea1f7a9514ad314f06e5065a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_a0aabbc3b8c941c5ad9db55fc1d70811bfb49eb4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_d35d4b8bcd7bcc704852400a716f08f1b41634cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_1759d863c99918efab188a4ec0ba2c3abf6a38d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\BHAWAR\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_e16231202170fecc72b31db6d921ec267ed067fc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_8e07c874055257663db771bad83c36769e8b5cc8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_7c3a2bfb1bb820861c953a49ba0ad55e9443c009.jar" />
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_ed7b9ba225e9f12ec5d6fd8eecdcd14d60902f95.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_9d98e3f8c0ed8ca3303c0f4cd24de5b6e7456bb8.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_236b5cb2f03d2d44a4de4901a886efc49ebcf1fe.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\BHAWAR\Desktop\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_e14f9f31d6f91f38bb382808316c77bdec03a3b6.jar" />
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.2_c151cb4a2a8c075fb9bc68e5d0252d088d7d524c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_89449319fe74e0fd69be21378fd4cb8dc322b754.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.2_7b095c51e6dc3500c329a22d19f9837258316c68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_2f2dcf0957e033320121c35598de7efe5930625c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-11.0.2_7315f9c4cfdb32c211509271a6dbdc80586e6b21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_e3ddd669f120a188f82cae256df1ea7509c91080.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_6973c70253c265da0c1c8ddbe8f2f3d6bab25257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_c0986cb297c304acc24b38da667e02e12f0f2f6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_785efd003b88c3c5e211617765711c902ea89efa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.2_4f2f9aea68fa0b3143c843bf935725baf320d455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-11.0.2_098dce6c7db34ffc53a42c0957c97adf5ed7866f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-11.0.2_18240afbf353a88b90643b56628c08b4cff85785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_4bc25b2532454b963f31f6ad702cb35cd3774bb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_5d19ab6e84329be91b65579375ccbc6ffc513682.jar" />
     </item>
 
 </items>

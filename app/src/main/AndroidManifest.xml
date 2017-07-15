@@ -26,13 +26,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterPage" />
-        <activity android:name=".Validation_page">
-            <intent-filter>
-                <action android:name="android.intent.action.MAI" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".UpdateCompanyLayout">
             <intent-filter>
                 <action android:name="android.intent.action.M" />

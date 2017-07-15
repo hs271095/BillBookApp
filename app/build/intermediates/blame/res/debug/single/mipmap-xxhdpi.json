@@ -1,66 +1,18 @@
 [
     {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_exit_to_app_black_24dp.png"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_account_circle_black_24dp.png"
     }
 ]
