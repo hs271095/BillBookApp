@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -30,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 
 public class RegisterPage extends AppCompatActivity {
     Button register,submit;
-    TextView con,pno,em,pass,ph;
+    TextView con,pno,em,pass,ph,head;
     String company,pan,u,p,mobile;
     Context ctx=this;
     EditText comname, panno, email, password, phone,otp;
@@ -60,8 +59,10 @@ public class RegisterPage extends AppCompatActivity {
         pass= (TextView) findViewById(R.id.password);
         pno=(TextView)findViewById(R.id.linearLayout6);
         submit=(Button)findViewById(R.id.button2);
+        head=(TextView)findViewById(R.id.textView13);
         otp=(EditText)findViewById(R.id.otp);
         register = (Button) findViewById(R.id.register_but);
+        mAuth = FirebaseAuth.getInstance();
         mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
 
             @Override
@@ -114,11 +115,14 @@ public class RegisterPage extends AppCompatActivity {
                 pass.setVisibility(View.GONE);
                 password.setVisibility(View.GONE);
                 ph.setVisibility(View.GONE);
+                pno.setVisibility(View.GONE);
+                head.setVisibility(View.GONE);
                 register.setVisibility(View.GONE);
                 em.setVisibility(View.GONE);
                 phone.setVisibility(View.GONE);
                 submit.setVisibility(View.VISIBLE);
                 otp.setVisibility(View.VISIBLE);
+
 
                 // Save verification ID and resending token so we can use them later
                 mVerificationId = verificationId;
@@ -142,7 +146,7 @@ public class RegisterPage extends AppCompatActivity {
                         "91"+mobile,        // Phone number to verify
                         60,                 // Timeout duration
                         TimeUnit.SECONDS,   // Unit of timeout
-                        RegisterPage.this,               // Activity (for callback binding)
+                        RegisterPage.this,  // Activity (for callback binding)
                         mCallbacks);        // OnVerificationStateChangedCallbacks
 
             }
@@ -167,7 +171,9 @@ public class RegisterPage extends AppCompatActivity {
                             //Log.d(TAG, "signInWithCredential:success");
                             Toast.makeText(RegisterPage.this, "Verification Succesful", Toast.LENGTH_SHORT).show();
                             FirebaseUser user = task.getResult().getUser();
-                            finish();
+                            Intent go= new Intent(RegisterPage.this,HomePage.class);
+                            startActivity(go);
+
                             // ...
                         } else {
                             // Sign in failed, display a message and update the UI
@@ -175,7 +181,7 @@ public class RegisterPage extends AppCompatActivity {
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 // The verification code entered was invalid
                                 Toast.makeText(RegisterPage.this, "Verification failed code Invalid", Toast.LENGTH_SHORT).show();
-                                finish();
+
                             }
                         }
                     }
