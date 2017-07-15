@@ -15,9 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomePage">
-
-        </activity>
+        <activity android:name=".HomePage" />
         <activity android:name=".LoginPage">
             <intent-filter>
                 <action android:name="android.intent.action.MA" />
@@ -54,7 +52,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Generate_bill"></activity>
-        </application>
+        <activity android:name=".Generate_bill" />
+        <activity android:name=".View_user"></activity>
+    </application>
 
 </manifest>

@@ -1,6 +1,8 @@
 package bangalore.bms.billbookonline;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,9 +17,10 @@ import android.widget.Toast;
 public class LoginPage extends AppCompatActivity{
     EditText un,pwd;
     Button login;
+    SQLiteDatabase db;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
         un = (EditText) findViewById(R.id.un);
@@ -29,16 +32,20 @@ public class LoginPage extends AppCompatActivity{
                 String u, p;
                 u = un.getText().toString();
                 p = pwd.getText().toString();
-                if (u.equals("") && p.equals("")) {
-                    Intent go = new Intent(LoginPage.this, HomePage.class);
-                    startActivity(go);
-                    Toast.makeText(LoginPage.this, "Valid User", Toast.LENGTH_LONG).show();
+                db=openOrCreateDatabase("Main", SQLiteDatabase.CREATE_IF_NECESSARY,null);
+                Cursor c = db.rawQuery("SELECT * FROM users WHERE TRIM(email) = '"+u.trim()+"' and TRIM(password)='"+p.trim()+"'", null);
 
+                if( c.getCount()==0){
 
-                } else {
-                    Toast.makeText(LoginPage.this, "You are not a valid User", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginPage.this,"Valid user",Toast.LENGTH_SHORT).show();
+                    Intent i=new Intent(LoginPage.this,HomePage.class);
+                    startActivity(i);
+                }
+                else  {
+                    Toast.makeText(LoginPage.this,"Not Valid user",Toast.LENGTH_SHORT).show();
 
                 }
+                c.close();
             }
         });
 

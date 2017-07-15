@@ -21,8 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="bangalore.bms.billbookonline.HomePage" >
-        </activity>
+        <activity android:name="bangalore.bms.billbookonline.HomePage" />
         <activity android:name="bangalore.bms.billbookonline.LoginPage" >
             <intent-filter>
                 <action android:name="android.intent.action.MA" />
@@ -60,6 +59,7 @@
             </intent-filter>
         </activity>
         <activity android:name="bangalore.bms.billbookonline.Generate_bill" />
+        <activity android:name="bangalore.bms.billbookonline.View_user" />
     </application>
 
 </manifest>
