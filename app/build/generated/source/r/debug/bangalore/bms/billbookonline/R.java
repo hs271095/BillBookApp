@@ -3237,7 +3237,7 @@ containing a value of this type.
         public static final int enterAlways=0x7f0d0021;
         public static final int enterAlwaysCollapsed=0x7f0d0022;
         public static final int et_email=0x7f0d0102;
-        public static final int et_name=0x7f0d00fe;
+        public static final int et_com_name =0x7f0d00fe;
         public static final int et_pan=0x7f0d0100;
         public static final int et_password=0x7f0d0104;
         public static final int et_phone=0x7f0d0106;

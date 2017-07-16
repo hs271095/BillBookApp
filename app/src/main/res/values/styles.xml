@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#263238</item>
-        <item name="colorPrimaryDark">#263238</item>
-        <item name="colorAccent">#b0bec5</item>
+        <item name="colorPrimary">#0000e6</item>
+        <item name="colorPrimaryDark">#0000e6</item>
+        <item name="colorAccent">#3333ff</item>
     </style>
 
 
@@ -16,13 +16,13 @@
 
 
 
-<!-- Base application theme. -->
+    <!-- Base application theme. -->
 
 
-<style name="AppTheme.NoActionBar">
-    <item name="windowActionBar">false</item>
-    <item name="windowNoTitle">true</item>
-</style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
 
 

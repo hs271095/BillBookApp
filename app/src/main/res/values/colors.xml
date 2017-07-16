@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="backgroundLogin">#b0bec5</color>
+    <color name="backgroundLogin">#ffffff</color>
     <color name="colorPrimary">#c51162</color>
     <color name="colorPrimaryDark">#c51162</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#f0ffff</color>
     <color name="navigationBarColor">#088b33</color>
     <color name="colorAccent">#FF80AB</color>
-    <color name="blackTextColor">#000000</color>
-    <color name="hintTextColor">#78909c</color>
-    <color name="buttonColor">#455a64</color>
-    <color name="backgroundForOtherActivites">#cfd8dc</color>
-    <color name="textColorOnGreyBackground">#424242</color>
-    <color name="backgroundForHomePage">#b0bec5</color>
+    <color name="headingsBackground">#002db3</color>
+    <color name="headingsTextColor">#002db3</color>
+    <color name="hintTextColor">#3385ff</color>
+    <color name="textColorInTextView">#0039e6</color>
+    <color name="buttonColor">#0000ff</color>
+    <color name="backgroundForOtherActivites">#ffffff</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="backgroundForHomePage">#ffffff</color>
 </resources>

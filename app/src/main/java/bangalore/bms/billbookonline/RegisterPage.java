@@ -1,14 +1,10 @@
 package bangalore.bms.billbookonline;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -48,7 +44,7 @@ public class RegisterPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_page);
-        comname = (EditText) findViewById(R.id.et_name);
+        comname = (EditText) findViewById(R.id.et_com_name);
         panno = (EditText) findViewById(R.id.et_pan);
         email = (EditText) findViewById(R.id.et_email);
         password = (EditText) findViewById(R.id.et_password);
@@ -58,7 +54,7 @@ public class RegisterPage extends AppCompatActivity {
         ph=(TextView)findViewById(R.id.phone);
         pass= (TextView) findViewById(R.id.password);
         pno=(TextView)findViewById(R.id.linearLayout6);
-        submit=(Button)findViewById(R.id.button2);
+        submit=(Button)findViewById(R.id.buttonVerifyOTP);
         head=(TextView)findViewById(R.id.textView13);
         otp=(EditText)findViewById(R.id.otp);
         register = (Button) findViewById(R.id.register_but);
