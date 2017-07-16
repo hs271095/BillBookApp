@@ -18,7 +18,7 @@ public class UpdateCompanyLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.update_company_layout);
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        Spinner spinner = (Spinner) findViewById(R.id.spinnerServiceSector);
 
         List<String> categories = new ArrayList<String>();
         categories.add("Automobile");

@@ -14,5 +14,6 @@
     <color name="buttonColor">#0000ff</color>
     <color name="backgroundForOtherActivites">#ffffff</color>
     <color name="textColorBlack">#000000</color>
+    <color name="blackTextColor">#000000</color>
     <color name="backgroundForHomePage">#ffffff</color>
 </resources>

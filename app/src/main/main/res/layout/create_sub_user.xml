@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---Edited by Dinesh on 09-07-2017-->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BillTemplateActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="89dp"
+    android:background="@color/backgroundForOtherActivites">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-82dp"
+        android:layout_marginEnd="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="429dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/Tv_createSubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/backgroundLogin"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Create a sub-User"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorBlack"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_namesubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Name of User/Employee*"
+                android:textColor="@color/textColorBlack"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="368dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.03" />
+
+            <Spinner
+                android:id="@+id/spin_namesubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/textColorBlack" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_employeeno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Employee No.*"
+                android:textColor="@color/textColorBlack" />
+
+            <EditText
+                android:id="@+id/ET_empsubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:inputType="textMultiLine"
+                android:textColor="@color/textColorBlack"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="321dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_emailsubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Work Email* "
+                android:textColor="@color/textColorBlack" />
+
+            <EditText
+                android:id="@+id/ET_emailsubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:inputType="textMultiLine"
+                android:textColor="@color/textColorBlack"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="321dp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_mobilesubuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Mobile No.* "
+                android:textColor="@color/textColorBlack" />
+
+            <EditText
+                android:id="@+id/ET_mobileclient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:inputType="textMultiLine"
+                android:textColor="@color/textColorBlack"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="321dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_authorise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Authorization* "
+                android:textColor="@color/textColorBlack" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.03" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/CBAuthorise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="5dp"
+                    android:text="I hereby authorise the access on behalf of the company"
+                    android:textColor="@color/textColorBlack"
+                    android:textSize="14sp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="368dp" />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:id="@+id/tv_USN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:text="Username*"
+                android:textColor="@color/textColorBlack"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="368dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.03" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textviewSel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="5dp"
+                    android:text="Select : "
+                    android:textColor="@color/textColorBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.03" />
+
+                <CheckBox
+                    android:id="@+id/CBname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="5dp"
+                    android:text="Name"
+                    android:textColor="@color/textColorBlack"
+                    android:textSize="14sp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="368dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.03" />
+
+                <CheckBox
+                    android:id="@+id/CBempno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="5dp"
+                    android:text="Employee No."
+                    android:textColor="@color/textColorBlack"
+                    android:textSize="14sp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="368dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="0.03" />
+
+
+                <TextView
+                    android:id="@+id/tv_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="5dp"
+                    android:text="Password* :"
+                    android:textColor="@color/textColorBlack" />
+
+                <EditText
+                    android:id="@+id/ET_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/textColorBlack"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="321dp" />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.03" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/createuser"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@color/buttonColor"
+                    android:fontFamily="sans-serif"
+                    android:text="Create User"
+                    android:textColor="@color/textColorPrimary" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+

@@ -36,7 +36,7 @@
                 android:layout_marginTop="5dp"
                 android:paddingLeft="5dp"
                 android:text="Create a sub-User"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="24sp"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
                 android:text="Name of User/Employee*"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="368dp" />
@@ -68,7 +68,7 @@
             <Spinner
                 android:id="@+id/spin_namesubuser"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -79,7 +79,7 @@
             <TextView
                 android:id="@+id/tv_employeename"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -88,7 +88,7 @@
             <EditText
                 android:id="@+id/ET_empname"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -103,7 +103,7 @@
             <TextView
                 android:id="@+id/tv_employeeno"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -112,7 +112,7 @@
             <EditText
                 android:id="@+id/ET_empsubuser"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -127,7 +127,7 @@
             <TextView
                 android:id="@+id/tv_emailsubuser"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -136,7 +136,7 @@
             <EditText
                 android:id="@+id/ET_emailsubuser"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -153,7 +153,7 @@
             <TextView
                 android:id="@+id/tv_mobilesubuser"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -162,7 +162,7 @@
             <EditText
                 android:id="@+id/ET_mobileclient"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -176,7 +176,7 @@
             <TextView
                 android:id="@+id/tv_USN"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -188,7 +188,7 @@
             <EditText
                 android:id="@+id/ET_username"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -202,7 +202,7 @@
             <TextView
                 android:id="@+id/tv_password"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -211,7 +211,7 @@
             <EditText
                 android:id="@+id/ET_password"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -226,7 +226,7 @@
             <TextView
                 android:id="@+id/tv_authorise"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/textColorOnGreyBackground"
+                android:textColor="@color/blackTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -244,7 +244,7 @@
                 <CheckBox
                     android:id="@+id/CBAuthorise"
                     android:fontFamily="sans-serif"
-                    android:textColor="@color/textColorOnGreyBackground"
+                    android:textColor="@color/blackTextColor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
@@ -335,8 +335,4 @@
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
-
-
-
-
 

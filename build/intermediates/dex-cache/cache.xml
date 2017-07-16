@@ -2,139 +2,643 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\54687a56d61e14709e835f6beeddf391c52ad9c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ae2489a3e4395e64363731a6a96a8176406cfce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\31077311b7b9b82072b4e7937a49c1697dd7e66e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15857dce424132cb53e37cba16b9d587a6c5c568">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98a4f1aca54e4d28caa8d9c82a1bbb795f32a9c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\27d7c9359769fb60bfa09c216dac517866162956\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7357cef91864a283c8db913866f50bafbe8c6801">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73f1717e8e837ae41559a9bcf4c75c33bab6e029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\ca60aac70fc5464289fdbb82d3a2cbc474ff85bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2bae22c4925830cc03e81f4911f62b445bf132f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2becd6183d5672b0351ce6c4bf4282a34938ee81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\61edb3956e98084769e5473448cca42f18bf11be\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_36bb2428d5f911fea3cf1fa2119a15303525913c.jar" />
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af5362ce3331c2d477a37453f78e1fec0c7239fb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\edb80b902c0db2e8cf8a51a213fa6e5bc42ea919\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_7ed7cd1502ae5312d682f82fbdb1f95286ef8918.jar" />
+        sha1="25c862ccc7a67cc4682ea9cacf08918693e915ef">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91e45d4cdac07f96ef07167e0820b647d45f76a0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\dc9667428938b9fd1c67cce73d085a6a6b729b94\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba90907329e4ed429307d39490927b456838bf08">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_010c78b90331b839e7fbb0b332ceea8830dbcfef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\d07d40522ac6790170d0d359606c09a3cd7cf7cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1adb7b69001d19f3377a57d427ae387802e91753\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\d6a7ffde8a6f04bee60ecc86a8215b4e8b9dfa51\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70379db34187cc99d49d93c8b85bed64bb971ff9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_fa5a844303c5a67aadc03d224bccaa5ae4a640a6.jar" />
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_6973c70253c265da0c1c8ddbe8f2f3d6bab25257\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_69b22396f4a6dc3aec2eca121dbfa22f7d05d480.jar" />
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_785efd003b88c3c5e211617765711c902ea89efa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\4a5802eea9e21fab453b9e0121b6e31f5abf33ec\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_26e436f3fe1a8889059825b424c6333aeaee0f0f.jar" />
+        sha1="885bcb023a9b57ed31c305e2e94e31af909e21c5">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_51191e805e59bdf6698381d6553428892cb54853\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\d0415e740d5b81c96426907bf3026b57212bffed\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_06451b989c2c75c65456d1b8fd1c0e6c4cd526bc.jar" />
+        sha1="acaf8846fcf5556493bdbe075b13ea664bb1e9f5">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a137c16b1f808205c1a1c7cc9502005b73d8a87a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\92a7da06f5bc5a199d4190accdf12309be84fa2b\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_d8849c42e9e17a467799cb1416e59a078c03362c.jar" />
+        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f98fc5077f69238ea3125e4e0ca403226dfd6a0e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\a67f6ce699e7b930522cd193d462081b04db866b\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_9a9be9691cb46261c675eff5986ffb808cfb6cc5.jar" />
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4948089ce12ea052bbb0f840e0ea7f1a14480f10\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\fad1719b6bbbe7525b4f4471694838565bb77883\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_da2fc6a2ce08f6e28e17da51050b084c59cefb66.jar" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef0f4dc5e0eea2cfe7694aab10132ce60be6ad3c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1cc7baf8e7c081e282e80a7d6c89784744a7fd46\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_e80b5dce718f623811c0794bf25fef28562115d8.jar" />
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dacb853cb2be24e949738db25a890a95ddad8e92\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\26497867b908415a93188a260a41f50ec3848aa9\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_ae6c61633a532c34ae49cd9390f45091e8d61f51.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d0e8412cd7782ca32f0359077b893aa3f2b1c2f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_3ed022d69110c9a664a17c3f20ae1873ac8179e8.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_748264d03e4015e44b2c1a4bba447cfc29755546\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\57fdd750799ff25af38e7078ca27d2872cd79112\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_58377f38cfa38bceaa30d2097b268fb36e61cd66.jar" />
+        sha1="68a1346f52b0e623460bf2f70c59c59a7a34bcea">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4476c482ed3116ce62a63d21e2a25ee8013ba7de\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\6cde8b8f461bae0b19528d0f0a714bf4ab738b76\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_ea8f5888730607b79e32d67d58e3b30088af51bd.jar" />
+        sha1="cdfe6f00bbbe6bf590b4306017d485d845ffc7e5">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29dc5eca3110d98728ad43da658e91339bd19a3e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\b7221d209a6d8eb4a017270fb3b468f74a251eb0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_330f198764eabb621a40f08b0dd9765739911435\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\d022a57c49fd6e00a328687516e794d617a12bc4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5493a7c08b74d424d08a23c68334893cfd2d5ee3">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4649704e7ea3b233e2e42ecc8f3ae6be539eee6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\b1755e958477b85cca97a0678f5bdd922841ebe3\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\hp\AndroidStudioProjects\BillBookOnline1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_d7e33574bdbcdd0584ce43c8a58aab95e801d32e.jar" />
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2324136326bfc88910c0b874482a5569d066cff6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\bf9c33e8059fc1cb057e2676cc50a4e31e85b059\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3560fc891bbecd8982acbace15ccead59c3fedd1">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24dad27bda637220f46ff08e48b2130d1ec6061a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1912df3d30b68715f6602b5595d7bf77cb3bdbf9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03711df0c11eb771a2115c76db9e271eddea1bb8">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5f05b591420b430ba1ce3bc29caa50e6abc8863b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\10c7675709b7b4a69b27b309201ffc9a6f58dcf1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de4977477c719e5104303aa7b1a2675732cebcaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\2e93b26adf0eb7fbd8c333443714fdceb8e95905\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a229ed0ad72bff916ec6eddafbd54a9814f22db2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\ab93658e69eac640442d3b404f32f6fb1e3d114f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50fde88f529e2c238d72467da774e113f47dc866">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_466b417c7198d287592e87ecccbaebcac8fc23b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\7f17f448eca59a3a233c8b31815470aa5f6cae85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c6a0af36142b32d1f81ab099b73e90a25e360e2">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d3827c41165d6558cc1fc42e3964235885f6d26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\9e599d74cacebd057c4f24ff5974b6759b99f7ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0cccf7679b2764a849f90e2b581e2ec8d411679f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4df56003f9119281a7deb954433c391dbec50045\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1b064ad4dadf60468213e818c0b88727b0ff02c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4737d9835cf3ea9751f7d6647be60900062d1062">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c498b0c7cb3511322a67d619c944de5650cbbf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\688e63023d7acba93f7860bfc16d146fd94374d7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e015f5a6691f80b1f71e5299d48933be6a057963">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc7c07d68c16b6f7cfe1c21c997ed73018c0b873\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\4c827a1c7a7e173f333b21a0ac58d640caf172ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c8044e235ffd363d2bbd9886ca2a0953902fd52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\b313594ad77cbbd37dea4ab2f24658e93b92c553\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0cbfb82011590b8f68425335b24ad3413bb698b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1568a8f7c48b646a475d7466529c0b94643598ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64f7d5ec93e37d19165bba499be53ed7053b84c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\c24ec890d952ee0208e2de717f2acf56da070e9f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16166aa958e89095d7d5a8cdc475d50f004de537\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\5c34a9f38f76a916073143b2d49aa832e9aa45b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fd6dc27f1ebe5bdbf26aa54773d11327f91532b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b1ea9f11ccc0b17f972900945baa1c2b8ce5100\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\5d439e4959ddf1f6c03bc34e5154f23a084950f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5bad89ac06f1015490c3332c1cd160be1d17c049">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3ee331778d8ab09084caf4dc2bf2474846204df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\6565d26f139c6beaad7782eac01516fbb4edf6e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79a435f1c45ac04593a5134d70da983305584e90">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56b903887de086238349a3cb85689b1d12599440\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\0e3b0e0a4a629104b757e53638598ec03dd64c24\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="314299924c4866a8fea850a6ab10a7751fbce79d">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1a4169678aeac6e7c94c9744a57a410a8ad50134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1167c381ebd8516e44468e9b120bad1fce36fb78\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="543cbd7526b5bf05a5a1be344c53b1994f22a04f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6cab826184e8fcefca90067d134b64447f2c65f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\a731d2f60b04f85ed26ec6b3b3e43378834fa8e6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3d07dfddc7c3c7547fb953847589d586f1e2077">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d429855f0954514ffb5a37112119662aec6b5e7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="31f5a7c5b944e7ba23eddfca34194c24de4f94ca">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f201ebbe0bb36f04cb2d8fffb5921f2dc997cf02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\7749485411f68deac96883f4fd44d09034dfd909\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0cc2b469153b284eb939d4fff6a17c8d4e5e455f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\c183325c17452d32baf013ee92d1ca72c2aac9f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_50e51d7bfd6612bd3a46fd695dbe0b0070a82ebf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\1f3cca297d44fda5a1d9ce1a2456d8a00478e76f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b4e41235d1525d4b094e7d47918be49b87dd938\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\5b8080653f84c10725a6ceb8fa9800b65d9c6063\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f813cc0713085e46735bcabf9def2ffb6419de7">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b73d23171632c01e5f0162a24aea49f1edc80cfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\0f13a2ea2d68d0548bac02515e30956c7edb88a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="976b0a037981a05e685415093c67ad73c94d4846">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee33276a7fa5d1101c32cbc2d98e307233070386\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\68acd167a5ae786c9d648a7a83f586f1152ae70f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4ff475aad14939684efd3227ec19cd49e90888f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ada3e90b68b7a18427b5ddbe53a978d8419531b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\79a58ec1d4047ca79b4ec2069e7633a1cbd589e7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9bc3e11fbff8e0d503ff795c12c73e1a6fad7a9">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6f3047b4695cd235950dff3451f8cafa5f8033a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\633819602b6a68ead4210aa867e3f5ad54c4a99c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02c5dfe0cd02b736162c60cb1899e60a2ad22119\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\516caee231002e63cfd0d71dc3763d1abbde2102\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b77ce0dafbb3703ab3a101c8fe30db7d02457de5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\7acb72817a3f1412d3f79cb937b9cbf5eeaac633\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2df23fb8581e8503db6e33739b450f9eb4a8b30a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6bc918861622d617e99aa527c0121ba4828846c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\5a39b9b1814d3d558087240dad4c137d85154987\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6829add3cbc97d873f7ae496fa6cb88b9ad912d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\8590c330e3343bd7c1b84f5974c99cf29365902a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd680db4854d8e56158039da897bd8c1a9495b77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\9ab61123a451ac6654e761123df4c2bb581011a8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5da59bfe8bee5a41daa7c26b970b12699ac8db">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfa257b4ad5831bf221b2a15ececf02684c64eeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\d8d463acab9c2648e331d0f87cd652f51b4b5258\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="338791f0ad4a30593b69a9d083380ddb6789dd6a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_853b97d2ea37fa86ad7cd3301854d6a419189959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\15da61c319aade169981adffa31a811cbebdb11b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3865e9471edf4078ea0ec027cfe2e678a8de2bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\e35a267f2f741da76bf4209e02f79f153cc9c401\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b84a791dc9bcda50cb84e4498e0502b3e4dfd47d">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b3bbdf84ee785aa65fe83a297d5bdd187c6f718\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\2fe9175a9a5c70a2197b01f9848ac1b3e7a7a955\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="424e509954db08079f78b20947e2cf120c045e48">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c41505762babef897b968781be19dadaeba1bc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\567b77512852a43c330b1048f04ad9640f75e297\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbbba1fc0f6c51382c3fa1f9223d1f6f9144f359">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a246ea5e0085830164e951d15212b6f05bcb52d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\3174b359377b7f0b27ac6eaae20f2c0f96a28bbe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b918a1f54cc134db1d3c5239127300e7eb50e6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\66a0895558d8b1359b886f3871e3b09b450ae903\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db939a450ea2a721db84e774bf108e20c44a8a1d">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac2e365fad5a2eb99c188ce265a9c13892b45e11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\76346c7e06425445bb434db8b4986e478821d81e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86e2c2399cfd7f8271b535b0e7d8ec092d0c6335">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39ece775d85fe5231ff1a05ab4110e1e4a5b53e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\06c04eab47e30e0af55ea25f22045516f8744c97\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7052f73b252b9082fde8bf01e888dffbd7593684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\0c44705904519292d16b0c06e5052d8bc740229d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c98f25293c14728ad54911af317ca7e34a11b04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\81c9962fe56b8d0694895122ed7c307e9db026cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f909161e9bac1dd36538a275f06cae462082316a">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a91fc8ff3a5d4215f43a28b54528e83a122c219b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\868276ba0b82132fed05909b6cd7aa1b72d49fd4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed604b6514332573eb5aafda77123f2c3913ebff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\df00b5404afd1ed2f6571d03b3bb8388ccfcfc9b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3a27693b28b46af644df8ce765f4252b32c9e87">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe4851522e2f51edaf279a2d82e323052119b0a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit Sharma\.android\build-cache\b61bc2525cba3d53c0cc10e4ff4435ce8476883d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="240e5a7c620376184f3168cfdd36315b97b1fe07">
+        <dex dex="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4bea378426733cfdb104ef1ca708361218089960\classes.dex" />
     </item>
 
 </items>

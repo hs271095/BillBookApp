@@ -1,82 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\1912df3d30b68715f6602b5595d7bf77cb3bdbf9\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     }
 ]

@@ -1,22 +1,6 @@
 [
     {
-        "merged": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Sneha\\Billing Project\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\BHAWAR\\Documents\\AndroidProjects\\BillBookOnline\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BillBookOnline1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Downloads\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\BHAWAR\\Desktop\\BillBookOnline\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\8590c330e3343bd7c1b84f5974c99cf29365902a\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]

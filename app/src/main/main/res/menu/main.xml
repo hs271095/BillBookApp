@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/AddTemplate"
+        android:title="Add Template"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        />
+    <item android:id="@+id/Add"
+        android:title="Your Template"
+        android:icon="@mipmap/ic_add_circle_black_24dp"/>
+    <item android:id="@+id/bill"
+        android:title="Bill History"
+        android:icon="@mipmap/ic_add_circle_black_24dp"/>
+    <item android:id="@+id/help"
+        android:title="Help and Support"
+        android:icon="@mipmap/ic_add_circle_black_24dp"/>
+    <item android:id="@+id/settings"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        android:title="Settings"/>
+    <item android:id="@+id/Profile"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        android:title="Profile"/>
+    <item android:id="@+id/FAQ"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        android:title="FAQ"/>
+    <item android:id="@+id/abt"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        android:title="About us"/>
+    <item android:id="@+id/Rate"
+        android:icon="@mipmap/ic_add_circle_black_24dp"
+        android:title="Rate us"/>
+
+
+
+</menu>

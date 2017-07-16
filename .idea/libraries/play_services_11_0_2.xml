@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="play-services-11.0.2">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/11.0.2/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/11.0.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/638eb3767bd125920d3a3427df6d8a2c1dbb40ab/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/638eb3767bd125920d3a3427df6d8a2c1dbb40ab/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
