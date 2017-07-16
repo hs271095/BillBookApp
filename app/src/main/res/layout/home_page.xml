@@ -247,6 +247,9 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp" />
 
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
             <android.support.design.widget.NavigationView
                 android:id="@+id/navigation_view"
                 android:layout_width="wrap_content"
@@ -261,9 +264,9 @@
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"></android.support.design.widget.NavigationView>
 
-        </android.support.constraint.ConstraintLayout>
 
-    </LinearLayout>
+
+
 </android.support.v4.widget.DrawerLayout>
 
 
