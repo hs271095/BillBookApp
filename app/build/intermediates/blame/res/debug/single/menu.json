@@ -1,13 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bill_template.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\menu\\bill_template.xml"
-    },
-    {
-        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_bill_template_drawer.xml",
-        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\menu\\activity_bill_template_drawer.xml"
-    },
-    {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\menu\\main.xml"
     }

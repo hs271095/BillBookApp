@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\516caee231002e63cfd0d71dc3763d1abbde2102\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",

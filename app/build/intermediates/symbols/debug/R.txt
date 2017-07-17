@@ -1255,7 +1255,7 @@ int drawable quantum_ic_volume_off_white_36 0x7f020185
 int drawable quantum_ic_volume_up_grey600_36 0x7f020186
 int drawable quantum_ic_volume_up_white_36 0x7f020187
 int drawable side_nav_bar 0x7f020188
-int id Add 0x7f0f01a6
+int id Add 0x7f0f019f
 int id AddTemplate 0x7f0f013c
 int id CBAuthorise 0x7f0f0119
 int id ET_addressclient 0x7f0f012d
@@ -1269,14 +1269,14 @@ int id ET_password 0x7f0f0117
 int id ET_perdis 0x7f0f0136
 int id ET_servicecharge 0x7f0f0134
 int id ET_username 0x7f0f0115
-int id FAQ 0x7f0f01ab
+int id FAQ 0x7f0f01a4
 int id LoginPage 0x7f0f00c8
-int id Profile 0x7f0f01aa
-int id Rate 0x7f0f01ad
+int id Profile 0x7f0f01a3
+int id Rate 0x7f0f01a6
 int id Register 0x7f0f00cc
 int id Tv_createSubuser 0x7f0f00cd
 int id Tv_gen_bill 0x7f0f0127
-int id abt 0x7f0f01ac
+int id abt 0x7f0f01a5
 int id action0 0x7f0f0169
 int id action_bar 0x7f0f00b6
 int id action_bar_activity_content 0x7f0f0000
@@ -1294,7 +1294,6 @@ int id action_menu_presenter 0x7f0f0003
 int id action_mode_bar 0x7f0f00b3
 int id action_mode_bar_stub 0x7f0f00b2
 int id action_mode_close_button 0x7f0f0095
-int id action_settings 0x7f0f01a5
 int id action_text 0x7f0f0168
 int id actions 0x7f0f0176
 int id activity_chooser_view_content 0x7f0f0096
@@ -1320,7 +1319,7 @@ int id background_image_view 0x7f0f00d2
 int id background_place_holder_image_view 0x7f0f00d6
 int id basic 0x7f0f0023
 int id beginning 0x7f0f005d
-int id bill 0x7f0f01a7
+int id bill 0x7f0f01a0
 int id billDateFormatInput 0x7f0f00f6
 int id billNumberFormatInput 0x7f0f00f5
 int id blurred_background_image_view 0x7f0f00d3
@@ -1427,7 +1426,7 @@ int id google_wallet_classic 0x7f0f008d
 int id google_wallet_grayscale 0x7f0f008e
 int id google_wallet_monochrome 0x7f0f008f
 int id grayscale 0x7f0f0090
-int id help 0x7f0f01a8
+int id help 0x7f0f01a1
 int id holo_dark 0x7f0f0079
 int id holo_light 0x7f0f007a
 int id home 0x7f0f0012
@@ -1500,12 +1499,6 @@ int id mr_volume_group_list 0x7f0f015c
 int id mr_volume_item_icon 0x7f0f015e
 int id mr_volume_slider 0x7f0f015f
 int id multiply 0x7f0f0035
-int id nav_camera 0x7f0f019f
-int id nav_gallery 0x7f0f01a0
-int id nav_manage 0x7f0f01a2
-int id nav_send 0x7f0f01a4
-int id nav_share 0x7f0f01a3
-int id nav_slideshow 0x7f0f01a1
 int id navigation_header_container 0x7f0f0121
 int id navigation_view 0x7f0f013d
 int id never 0x7f0f0067
@@ -1577,7 +1570,7 @@ int id seek_bar 0x7f0f00e1
 int id seek_bar_controls 0x7f0f00dd
 int id select_dialog_listview 0x7f0f00c4
 int id selectionDetails 0x7f0f0080
-int id settings 0x7f0f01a9
+int id settings 0x7f0f01a2
 int id shortcut 0x7f0f00ae
 int id showCustom 0x7f0f002b
 int id showHome 0x7f0f002c
@@ -1787,9 +1780,7 @@ int layout select_dialog_multichoice_material 0x7f040052
 int layout select_dialog_singlechoice_material 0x7f040053
 int layout support_simple_spinner_dropdown_item 0x7f040054
 int layout update_company_layout 0x7f040055
-int menu activity_bill_template_drawer 0x7f100000
-int menu bill_template 0x7f100001
-int menu main 0x7f100002
+int menu main 0x7f100000
 int mipmap ic_account_circle_black_24dp 0x7f030000
 int mipmap ic_add_circle_black_24dp 0x7f030001
 int mipmap ic_exit_to_app_black_24dp 0x7f030002
