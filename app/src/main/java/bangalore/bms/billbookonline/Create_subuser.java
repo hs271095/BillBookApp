@@ -100,7 +100,5 @@ public class Create_subuser extends AppCompatActivity{
             }
         });
 
-
-
     }
 }

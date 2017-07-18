@@ -27,6 +27,13 @@ public class LoginPage extends AppCompatActivity{
         un =(EditText)findViewById(R.id.un);
         pwd =(EditText)findViewById(R.id.pwd);
         login =(Button)findViewById(R.id.login1);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent go= new Intent(LoginPage.this,HomePage.class);
+                startActivity(go);
+            }
+        });
 
 
         }
@@ -34,4 +41,4 @@ public class LoginPage extends AppCompatActivity{
 
 
     }
-}
+

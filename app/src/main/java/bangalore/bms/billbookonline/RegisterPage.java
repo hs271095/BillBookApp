@@ -29,7 +29,7 @@ public class RegisterPage extends AppCompatActivity {
     TextView con,pno,em,pass,ph,head;
     String company,pan,u,p,mobile;
     Context ctx=this;
-    String imei;
+    //String imei;
     EditText comname, panno, email, password, phone,otp;
 
     // [START declare_auth]
@@ -51,8 +51,7 @@ public class RegisterPage extends AppCompatActivity {
         email = (EditText) findViewById(R.id.et_email);
         password = (EditText) findViewById(R.id.et_password);
         phone = (EditText) findViewById(R.id.et_phone);
-        TelephonyManager mngr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-        imei=mngr.getDeviceId();
+
         con=(TextView)findViewById(R.id.linearLayout5);
         em=(TextView)findViewById(R.id.constraintLayout3);
         ph=(TextView)findViewById(R.id.phone);
@@ -141,7 +140,7 @@ public class RegisterPage extends AppCompatActivity {
                 p=password.getText().toString();
                 mobile=phone.getText().toString();
                 SQLiteDBHelper sdb=new SQLiteDBHelper(ctx);
-                sdb.putInformation(sdb,company,pan,u,p,mobile,imei);
+                sdb.putInformation(sdb,company,pan,u,p,mobile);
                 PhoneAuthProvider.getInstance().verifyPhoneNumber(
                         "91"+mobile,        // Phone number to verify
                         60,                 // Timeout duration

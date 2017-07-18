@@ -43,15 +43,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="bangalore.bms.billbookonline.HomePage" />
-        <activity android:name="bangalore.bms.billbookonline.LoginPage" >
+        <activity android:name="bangalore.bms.billbookonline.HomePage" >
             <intent-filter>
-                <action android:name="android.intent.action.MA" />
+                <action android:name="android.intent.action.M" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="bangalore.bms.billbookonline.RegisterPage" />
+        <activity android:name="bangalore.bms.billbookonline.LoginPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.RegisterPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="bangalore.bms.billbookonline.UpdateCompanyLayout" >
             <intent-filter>
                 <action android:name="android.intent.action.M" />

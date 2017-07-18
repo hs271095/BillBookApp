@@ -4452,7 +4452,7 @@ containing a value of this type.
         public static final int side_nav_bar=0x7f02018a;
     }
     public static final class id {
-        public static final int Add=0x7f0f019f;
+        public static final int Add=0x7f0f01a0;
         public static final int AddTemplate=0x7f0f013c;
         public static final int CBAuthorise=0x7f0f0119;
         public static final int ET_addressclient=0x7f0f012d;
@@ -4466,14 +4466,14 @@ containing a value of this type.
         public static final int ET_perdis=0x7f0f0136;
         public static final int ET_servicecharge=0x7f0f0134;
         public static final int ET_username=0x7f0f0115;
-        public static final int FAQ=0x7f0f01a4;
+        public static final int FAQ=0x7f0f01a5;
         public static final int LoginPage=0x7f0f00c8;
-        public static final int Profile=0x7f0f01a3;
-        public static final int Rate=0x7f0f01a6;
+        public static final int Profile=0x7f0f01a4;
+        public static final int Rate=0x7f0f01a7;
         public static final int Register=0x7f0f00cc;
         public static final int Tv_createSubuser=0x7f0f00cd;
         public static final int Tv_gen_bill=0x7f0f0127;
-        public static final int abt=0x7f0f01a5;
+        public static final int abt=0x7f0f01a6;
         public static final int action0=0x7f0f0169;
         public static final int action_bar=0x7f0f00b6;
         public static final int action_bar_activity_content=0x7f0f0000;
@@ -4500,7 +4500,7 @@ containing a value of this type.
         public static final int ad_label=0x7f0f00d8;
         public static final int add=0x7f0f0034;
         public static final int addButton=0x7f0f0196;
-        public static final int addServicesButton=0x7f0f019b;
+        public static final int addServicesButton=0x7f0f019c;
         public static final int adjust_height=0x7f0f005f;
         public static final int adjust_width=0x7f0f0060;
         public static final int alertTitle=0x7f0f00aa;
@@ -4516,7 +4516,7 @@ containing a value of this type.
         public static final int background_place_holder_image_view=0x7f0f00d6;
         public static final int basic=0x7f0f0023;
         public static final int beginning=0x7f0f005d;
-        public static final int bill=0x7f0f01a0;
+        public static final int bill=0x7f0f01a1;
         public static final int billDateFormatInput=0x7f0f00f6;
         public static final int billNumberFormatInput=0x7f0f00f5;
         public static final int blurred_background_image_view=0x7f0f00d3;
@@ -4623,7 +4623,7 @@ containing a value of this type.
         public static final int google_wallet_grayscale=0x7f0f008e;
         public static final int google_wallet_monochrome=0x7f0f008f;
         public static final int grayscale=0x7f0f0090;
-        public static final int help=0x7f0f01a1;
+        public static final int help=0x7f0f01a2;
         public static final int holo_dark=0x7f0f0079;
         public static final int holo_light=0x7f0f007a;
         public static final int home=0x7f0f0012;
@@ -4663,7 +4663,7 @@ containing a value of this type.
         public static final int login=0x7f0f00cb;
         public static final int login1=0x7f0f00c7;
         public static final int logo_only=0x7f0f0088;
-        public static final int masked=0x7f0f019e;
+        public static final int masked=0x7f0f019f;
         public static final int match_global_nicknames=0x7f0f0071;
         public static final int match_parent=0x7f0f0081;
         public static final int media_actions=0x7f0f016c;
@@ -4744,7 +4744,7 @@ containing a value of this type.
         public static final int right_side=0x7f0f0170;
         public static final int sandbox=0x7f0f007c;
         public static final int satellite=0x7f0f0062;
-        public static final int saveCompanyProfileButton=0x7f0f019c;
+        public static final int saveCompanyProfileButton=0x7f0f019d;
         public static final int screen=0x7f0f0036;
         public static final int scroll=0x7f0f0032;
         public static final int scrollIndicatorDown=0x7f0f00a5;
@@ -4767,7 +4767,8 @@ containing a value of this type.
         public static final int seek_bar_controls=0x7f0f00dd;
         public static final int select_dialog_listview=0x7f0f00c4;
         public static final int selectionDetails=0x7f0f0080;
-        public static final int settings=0x7f0f01a2;
+        public static final int services=0x7f0f019b;
+        public static final int settings=0x7f0f01a3;
         public static final int shortcut=0x7f0f00ae;
         public static final int showCustom=0x7f0f002b;
         public static final int showHome=0x7f0f002c;
@@ -4868,7 +4869,7 @@ containing a value of this type.
         public static final int view=0x7f0f00d0;
         public static final int view_offset_helper=0x7f0f001c;
         public static final int viewuser=0x7f0f00cf;
-        public static final int visible=0x7f0f019d;
+        public static final int visible=0x7f0f019e;
         public static final int volume_item_container=0x7f0f015d;
         public static final int wide=0x7f0f0076;
         public static final int withText=0x7f0f0068;

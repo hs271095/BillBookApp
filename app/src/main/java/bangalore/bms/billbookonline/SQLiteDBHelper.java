@@ -21,7 +21,7 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
     public static final String COLUMN_EMAIL =  "email";
     public static final String COLUMN_PASSWORD =  "password";
     public static final String COLUMN_MOBILE =  "mobile";
-    public static final String COLUMN_IMEI="imei";
+    //public static final String COLUMN_IMEI="imei";
     private static final String CREATE_TABLE_QUERY =
             "CREATE TABLE " + TABLE_NAME + " (" +
                     COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -29,7 +29,7 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
                     COLUMN_PAN_NUMBER + " TEXT, "+
                     COLUMN_EMAIL + " TEXT, " +
                     COLUMN_PASSWORD + " TEXT, " +
-                    COLUMN_MOBILE + " TEXT " +COLUMN_IMEI+"TEXT" +")";
+                    COLUMN_MOBILE + " TEXT "+")";
     public SQLiteDBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -43,7 +43,7 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(db);
     }
-    public void putInformation(SQLiteDBHelper sdb,String cname,String pno,String email,String pass,String mobile,String imei){
+    public void putInformation(SQLiteDBHelper sdb,String cname,String pno,String email,String pass,String mobile){
          SQLiteDatabase sq=sdb.getWritableDatabase();
         ContentValues cv=new ContentValues();
         cv.put(COLUMN_COMPANY_NAME,cname);
@@ -51,15 +51,14 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
         cv.put(COLUMN_EMAIL,email);
         cv.put(COLUMN_PASSWORD,pass);
         cv.put(COLUMN_MOBILE,mobile);
-        cv.put(COLUMN_IMEI,imei);
+       // cv.put(COLUMN_IMEI,imei);
        long k= sq.insert(TABLE_NAME,null,cv);
 
     }
     public Cursor getInformation(SQLiteDBHelper sdb){
         SQLiteDatabase sq=sdb.getReadableDatabase();
-        String[] columns={COLUMN_EMAIL,COLUMN_PASSWORD,COLUMN_IMEI};
+        String[] columns={COLUMN_EMAIL,COLUMN_PASSWORD};
         Cursor cr=sq.query(TABLE_NAME,columns,null,null,null,null,null);
-
         return cr;
     }
 }
