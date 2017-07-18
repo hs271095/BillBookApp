@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.TelephonyManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +29,7 @@ public class RegisterPage extends AppCompatActivity {
     TextView con,pno,em,pass,ph,head;
     String company,pan,u,p,mobile;
     Context ctx=this;
+    String imei;
     EditText comname, panno, email, password, phone,otp;
 
     // [START declare_auth]
@@ -49,6 +51,8 @@ public class RegisterPage extends AppCompatActivity {
         email = (EditText) findViewById(R.id.et_email);
         password = (EditText) findViewById(R.id.et_password);
         phone = (EditText) findViewById(R.id.et_phone);
+        TelephonyManager mngr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+        imei=mngr.getDeviceId();
         con=(TextView)findViewById(R.id.linearLayout5);
         em=(TextView)findViewById(R.id.constraintLayout3);
         ph=(TextView)findViewById(R.id.phone);
@@ -137,7 +141,7 @@ public class RegisterPage extends AppCompatActivity {
                 p=password.getText().toString();
                 mobile=phone.getText().toString();
                 SQLiteDBHelper sdb=new SQLiteDBHelper(ctx);
-                sdb.putInformation(sdb,company,pan,u,p,mobile);
+                sdb.putInformation(sdb,company,pan,u,p,mobile,imei);
                 PhoneAuthProvider.getInstance().verifyPhoneNumber(
                         "91"+mobile,        // Phone number to verify
                         60,                 // Timeout duration
