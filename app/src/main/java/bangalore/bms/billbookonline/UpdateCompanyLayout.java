@@ -22,7 +22,7 @@ import android.widget.Toast;
 
 public class UpdateCompanyLayout extends AppCompatActivity {
     SQLiteDatabase db, db2;
-    EditText comname,panno,tinno,sertaxno,services;
+    EditText comname,panno,tinno,sertaxno,services,charges;
     Button addservice,saveprofile;
 
     @Override
@@ -36,19 +36,20 @@ public class UpdateCompanyLayout extends AppCompatActivity {
         services=(EditText)findViewById(R.id.services);
         saveprofile=(Button)findViewById(R.id.saveCompanyProfileButton);
         addservice=(Button)findViewById(R.id.addServicesButton);
+        charges=(EditText)findViewById(R.id.Charges);
 
         Spinner spinner = (Spinner) findViewById(R.id.spinnerServiceSector);
 
         List<String> categories = new ArrayList<String>();
         try {
-            db = openOrCreateDatabase("ServicesDB", SQLiteDatabase.CREATE_IF_NECESSARY, null);
-            Cursor c = db.rawQuery("SELECT * FROM services", null);
+            db = openOrCreateDatabase("ServiceDB", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+            Cursor c = db.rawQuery("SELECT services FROM service", null);
 
             c.moveToFirst();
 
             while (!c.isAfterLast()) {
 
-                String service = c.getString(1);
+                String service = c.getString(0);
                 categories.add(service);
                 c.moveToNext();
             }
@@ -66,8 +67,8 @@ public class UpdateCompanyLayout extends AppCompatActivity {
             e.printStackTrace();
         }
         try {
-            db2 = openOrCreateDatabase("ServicesDB", SQLiteDatabase.CREATE_IF_NECESSARY, null);
-            db2.execSQL("CREATE TABLE  services(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,services VARCHAR);");
+            db2 = openOrCreateDatabase("ServiceDB", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+            db2.execSQL("CREATE TABLE  service(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,services VARCHAR, charges VARCHAR);");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -96,16 +97,22 @@ public class UpdateCompanyLayout extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 services.setVisibility(View.VISIBLE);
-                while(services.getText().toString()=="");
-                String service= services.getText().toString();
-                ContentValues values=new ContentValues();
-                values.put("services",service);
-                if(db2.insert("services",null,values)!=-1){
-                    Toast.makeText(UpdateCompanyLayout.this,"Record Inserted",Toast.LENGTH_SHORT).show();
-
+                charges.setVisibility(View.VISIBLE);
+                if(services.length()==0||services==null||services.equals("")) {
+                    Toast.makeText(UpdateCompanyLayout.this, "Add new Service", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    Toast.makeText(UpdateCompanyLayout.this,"Error",Toast.LENGTH_SHORT).show();
+                    String service = services.getText().toString();
+                    String charge = charges.getText().toString();
+                    ContentValues values = new ContentValues();
+                    values.put("services", service);
+                    values.put("charges", charge);
+                    if (db2.insert("service", null, values) != -1) {
+                        Toast.makeText(UpdateCompanyLayout.this, "Record Inserted", Toast.LENGTH_SHORT).show();
+
+                    } else {
+                        Toast.makeText(UpdateCompanyLayout.this, "Error", Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
