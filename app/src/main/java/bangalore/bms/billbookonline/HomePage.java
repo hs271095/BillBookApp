@@ -21,11 +21,12 @@ public class HomePage extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
      NavigationView navigation;
-     ImageButton gen,sub_user,add_goods;
+     ImageButton gen,sub_user,add_goods,ViewServices;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_page);
+        ViewServices=(ImageButton)findViewById(R.id.ViewSer);
         add_goods=(ImageButton)findViewById(R.id.addgoods);
         gen=(ImageButton)findViewById(R.id.Gen_Bill);
         sub_user=(ImageButton) findViewById(R.id.but5) ;
@@ -33,6 +34,7 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent go = new Intent(HomePage.this,Add_goods.class);
+                startActivity(go);
             }
         });
         gen.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +51,13 @@ public class HomePage extends AppCompatActivity {
                 Intent go= new Intent(HomePage.this,Create_subuser.class);
                 startActivity(go);
 
+            }
+        });
+        ViewServices.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent go= new Intent(HomePage.this,Services_Charges.class);
+                startActivity(go);
             }
         });
         mDrawerLayout=(DrawerLayout)findViewById(R.id.drawer_layout);
