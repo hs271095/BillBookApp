@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -24,6 +25,7 @@ public class UpdateCompanyLayout extends AppCompatActivity {
     SQLiteDatabase db, db2;
     EditText comname,panno,tinno,sertaxno,services,charges;
     Button addservice,saveprofile;
+    Context context=this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +59,7 @@ public class UpdateCompanyLayout extends AppCompatActivity {
             ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
             dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             spinner.setAdapter(dataAdapter);
-        } catch (SQLiteException e) {
+         } catch (SQLiteException e) {
 
         }
         try {
@@ -93,6 +95,7 @@ public class UpdateCompanyLayout extends AppCompatActivity {
                 }
             }
         });
+
         addservice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,17 +105,10 @@ public class UpdateCompanyLayout extends AppCompatActivity {
                     Toast.makeText(UpdateCompanyLayout.this, "Add new Service", Toast.LENGTH_SHORT).show();
                 }
                 else{
+                    DatabaseHelper dataHelper=new DatabaseHelper(context);
                     String service = services.getText().toString();
                     String charge = charges.getText().toString();
-                    ContentValues values = new ContentValues();
-                    values.put("services", service);
-                    values.put("charges", charge);
-                    if (db2.insert("service", null, values) != -1) {
-                        Toast.makeText(UpdateCompanyLayout.this, "Record Inserted", Toast.LENGTH_SHORT).show();
-
-                    } else {
-                        Toast.makeText(UpdateCompanyLayout.this, "Error", Toast.LENGTH_SHORT).show();
-                    }
+                    dataHelper.insertData(service,charge);
                 }
             }
         });
