@@ -59,11 +59,41 @@
         </activity>
         <activity android:name=".Generate_bill" />
         <activity android:name=".View_user"></activity>
-        <receiver android:name=".IncomingSms">
+            <receiver android:name=".IncomingSms">
+
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
+        <activity android:name=".PreviewTemplate"/>
+        <activity android:name=".Services_Charges">
+            <intent-filter>
+                <action android:name="android.intent.action.N" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_goods">
+            <intent-filter>
+                <action android:name="android.intent.action.A" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Goods_list">
+            <intent-filter>
+                <action android:name="android.intent.action.N" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ticket_generator">
+            <intent-filter>
+                <action android:name="android.intent.action.NO" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
     <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
     <uses-permission android:name="android.permission.READ_SMS" />

@@ -2,34 +2,34 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500406109527"
+    timestamp="1500544157488"
     token="3612085847434468298"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="705" />
+        duration="580" />
     <task
         name="instant-run-dex"
-        duration="26" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="79" />
+        duration="47" />
     <task
         name="verifier"
-        duration="5" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1500400596340"
+        timestamp="1500520803928"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -70,51 +70,22 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500404625229"
-        verifier="CLASS_ADDED" >
+        timestamp="1500539459591"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500404931747"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500405465837"
+        timestamp="1500544157488"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1500405726812"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\builds\debug\1500405726812\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1500405962622"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1500406109527"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Harshit Sharma\Documents\GitHub\BillBookOnline\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

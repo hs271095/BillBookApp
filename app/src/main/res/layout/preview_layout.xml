@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/account"
+            android:id="@+id/comapany_logo"
+            />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="50dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:id="@+id/company_name"
+               android:textColor="@color/colorPrimary"
+               android:text="Company name"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:id="@+id/bill_date"
+               android:textColor="@color/colorPrimary"
+               android:text="Bill Date"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:id="@+id/bill_number"
+
+               android:textColor="@color/colorPrimary"
+               android:text="Bill Number"/>
+       </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tv_item"
+
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tv_quantity"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tv_price"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:id="@+id/items"/>
+
+</LinearLayout>

@@ -30,15 +30,41 @@ public class LoginPage extends AppCompatActivity{
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent go= new Intent(LoginPage.this,HomePage.class);
+                Intent go =new Intent(LoginPage.this,HomePage.class);
                 startActivity(go);
+//                String password= pwd.getText().toString();
+//                String UserName= un.getText().toString();
+//                validateUserTask task = new validateUserTask();
+//                task.execute(new String[]{UserName,password});
             }
         });
 
 
         }
 
-
+//    private class validateUserTask extends AsyncTask<String, Void, String>{
+//        SQLiteDatabase db;
+//
+//        @Override
+//        protected String doInBackground(String... params) {
+//            String u= params[0];
+//            String p=params[1];
+//            db=openOrCreateDatabase("Main", SQLiteDatabase.CREATE_IF_NECESSARY,null);
+//            Cursor c = db.rawQuery("SELECT * FROM users WHERE TRIM(email) = '"+u.trim()+"' and TRIM(password)='"+p.trim()+"'", null);
+//            if(c.getCount()==0){
+//
+//                Toast.makeText(LoginPage.this,"Valid user",Toast.LENGTH_SHORT).show();
+//                Intent i=new Intent(LoginPage.this,HomePage.class);
+//                startActivity(i);
+//            }
+//            else  {
+//                Toast.makeText(LoginPage.this,"Not Valid user",Toast.LENGTH_SHORT).show();
+//
+//            }
+//            c.close();
+//            return null;
+//        }
+//    }
 
     }
 

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!---Edited by Dinesh on 09-07-2017-->
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,304 +8,267 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".BillTemplateActivity"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="89dp"
-    android:background="@color/backgroundForOtherActivites">
+    tools:layout_editor_absoluteY="89dp">
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="-181dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="0dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp">
-
+        android:layout_marginEnd="8dp">
         <LinearLayout
             android:layout_width="342dp"
             android:layout_height="429dp"
             android:orientation="vertical"
-            android:weightSum="1"
+            tools:layout_editor_absoluteY="8dp"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
+            android:weightSum="1">
 
             <TextView
                 android:id="@+id/Tv_gen_bill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:background="@color/backgroundLogin"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
                 android:text="Generate Bill"
                 android:textAlignment="center"
                 android:textAllCaps="true"
-                android:textColor="@color/textColorBlack"
-                android:textSize="24sp"
+                android:textSize="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="0dp" />
-
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="30dp"/>
 
             <TextView
                 android:id="@+id/tv_sel_client"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
                 android:text="Select Client*"
-                android:textColor="@color/textColorBlack"
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="368dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <Spinner
                 android:id="@+id/spin_sel_client"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:textColor="@color/textColorBlack" />
+                android:layout_height="wrap_content" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_nameclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
-                android:text="Name of Client "
-                android:textColor="@color/textColorBlack" />
+                android:text="Name of Client " />
 
             <EditText
                 android:id="@+id/ET_nameclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
-
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
-
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
             <TextView
+                android:paddingLeft="5dp"
                 android:id="@+id/tv_addressclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:paddingLeft="5dp"
-                android:text="Address Of Client* "
-                android:textColor="@color/textColorBlack" />
+                android:text="Address Of Client* " />
 
             <EditText
                 android:id="@+id/ET_addressclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
 
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_mobileclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
-                android:text="Mobile No. Of Client* "
-                android:textColor="@color/textColorBlack" />
+                android:text="Mobile No. Of Client* " />
 
             <EditText
                 android:id="@+id/ET_mobileclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_emailclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
-                android:text="Email of Client* "
-                android:textColor="@color/textColorBlack" />
+                android:text="Email of Client* " />
 
             <EditText
                 android:id="@+id/ET_emailclient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
 
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_selservice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
                 android:text="Select Service*"
-                android:textColor="@color/textColorBlack"
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="368dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <Spinner
                 android:id="@+id/spin_selectservice"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:textColor="@color/textColorBlack" />
+                android:layout_height="wrap_content" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_servicecharge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
-                android:text="Service Charges* "
-                android:textColor="@color/textColorBlack" />
+                android:text="Service Charges* " />
 
             <EditText
                 android:id="@+id/ET_servicecharge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
-
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/tv_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="Quantity* " />
+
+            <EditText
+                android:id="@+id/ET_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="321dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_perDis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
-                android:text="Discount In Percentage* "
-                android:textColor="@color/textColorBlack" />
+                android:text="Discount In Percentage* " />
 
             <EditText
                 android:id="@+id/ET_perdis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:fontFamily="sans-serif"
                 android:inputType="textMultiLine"
-                android:textColor="@color/textColorBlack"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="321dp" />
-
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <TextView
                 android:id="@+id/tv_seltemplate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:paddingLeft="5dp"
                 android:text="Template Type*"
-                android:textColor="@color/textColorBlack"
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="368dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.03"
+                android:layout_height="10dp"/>
 
             <Spinner
                 android:id="@+id/spin_templatetype"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:textColor="@color/textColorBlack" />
+                android:layout_height="wrap_content" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
                 <Button
                     android:id="@+id/preview"
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:text="Preview"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:layout_marginLeft="@dimen/activity_horizontal_margin"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:background="@color/buttonColor"
-                    android:fontFamily="sans-serif"
-                    android:text="Preview"
-                    android:textColor="@color/textColorPrimary" />
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 
@@ -314,20 +276,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
                 <Button
-                    android:id="@+id/generate"
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:id="@+id/generatebill"
+                    android:text="Generate"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:layout_marginLeft="@dimen/activity_horizontal_margin"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="10dp"
-                    android:background="@color/buttonColor"
-                    android:fontFamily="sans-serif"
-                    android:text="Generate"
-                    android:textColor="@color/textColorPrimary" />
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 

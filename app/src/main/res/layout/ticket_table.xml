@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/table_layout3"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/s1" android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/_s1t1"/>
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/_s1t2" />
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/_s1t3"/>
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/_s1t4" />
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/_s1t5" />
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:id="@+id/s2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:id="@+id/_s2t1"/>
+
+                <TextView
+                    android:id="@+id/s2t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/s2t3"/>
+        </LinearLayout>
+    </TableRow>
+<TableLayout  android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/table_layout4"
+    android:stretchColumns="*">
+
+
+</TableLayout>
+</TableLayout>

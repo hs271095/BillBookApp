@@ -109,6 +109,7 @@ public class UpdateCompanyLayout extends AppCompatActivity {
                     String service = services.getText().toString();
                     String charge = charges.getText().toString();
                     dataHelper.insertData(service,charge);
+                    Toast.makeText(UpdateCompanyLayout.this, "Data Inserted", Toast.LENGTH_SHORT).show();
                 }
             }
         });

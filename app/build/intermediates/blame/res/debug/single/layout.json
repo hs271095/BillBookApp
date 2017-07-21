@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\register_page.xml"
     },
     {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\goods_list.xml",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\goods_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\1912df3d30b68715f6602b5595d7bf77cb3bdbf9\\output\\res\\layout\\place_autocomplete_fragment.xml"
     },
@@ -72,6 +76,10 @@
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_goods.xml",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\add_goods.xml"
+    },
+    {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\1912df3d30b68715f6602b5595d7bf77cb3bdbf9\\output\\res\\layout\\place_autocomplete_progress.xml"
     },
@@ -92,6 +100,10 @@
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_services_charges.xml",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\activity_services_charges.xml"
+    },
+    {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\633819602b6a68ead4210aa867e3f5ad54c4a99c\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -110,6 +122,10 @@
     {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\8590c330e3343bd7c1b84f5974c99cf29365902a\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preview_layout.xml",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\preview_layout.xml"
     },
     {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -250,6 +266,10 @@
     {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\Harshit Sharma\\.android\\build-cache\\8590c330e3343bd7c1b84f5974c99cf29365902a\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ticket_table.xml",
+        "source": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\src\\main\\res\\layout\\ticket_table.xml"
     },
     {
         "merged": "C:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",

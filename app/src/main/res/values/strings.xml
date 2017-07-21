@@ -36,7 +36,9 @@
     <string name="enter_otp_here">Enter OTP Here</string>
     <string name="register">Register</string>
     <string name="verify_otp">Verify OTP</string>
-
-
-
+    <string name="enter_item_name">Enter item name</string>
+    <string name="add_goods">ADD GOODS</string>
+    <string name="quantity_of_item">Quantity of Item</string>
+    <string name="enter_price_of_item">Enter Price of Item</string>
+    <string name="add_item">ADD ITEM</string>
 </resources>

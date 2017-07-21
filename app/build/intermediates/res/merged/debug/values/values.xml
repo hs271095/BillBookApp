@@ -1008,6 +1008,8 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
     <string name="add_company_logo">ADD</string>
+    <string name="add_goods">ADD GOODS</string>
+    <string name="add_item">ADD ITEM</string>
     <string name="add_service">Add Services</string>
     <string name="app_name">Bill Book Online</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -1084,10 +1086,12 @@
     <string name="discount_particulars">Discount Particulars</string>
     <string name="enter_company_name">Enter Company Name:</string>
     <string name="enter_email">Enter Email:</string>
+    <string name="enter_item_name">Enter item name</string>
     <string name="enter_otp_here">Enter OTP Here</string>
     <string name="enter_pan_number">Enter PAN Number:</string>
     <string name="enter_password">Enter Password:</string>
     <string name="enter_phone_number">Enter Phone Number:</string>
+    <string name="enter_price_of_item">Enter Price of Item</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://billbookonline.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">881670933584</string>
@@ -1127,6 +1131,7 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="quantity_of_item">Quantity of Item</string>
     <string name="register">Register</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>

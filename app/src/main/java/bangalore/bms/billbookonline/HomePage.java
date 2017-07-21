@@ -56,7 +56,7 @@ public class HomePage extends AppCompatActivity {
         ViewServices.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent go= new Intent(HomePage.this,Services_Charges.class);
+                Intent go= new Intent(HomePage.this,Ticket_generator.class);
                 startActivity(go);
             }
         });

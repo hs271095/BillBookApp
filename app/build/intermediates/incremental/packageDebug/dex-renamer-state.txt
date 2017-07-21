@@ -1,4 +1,4 @@
-#Wed Jul 19 00:39:01 IST 2017
+#Thu Jul 20 14:01:51 IST 2017
 base.0=C\:\\Users\\Harshit Sharma\\Documents\\GitHub\\BillBookOnline\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f201ebbe0bb36f04cb2d8fffb5921f2dc997cf02
 renamed.1=classes.dex
 renamed.0=classes2.dex

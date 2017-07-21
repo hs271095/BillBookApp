@@ -93,6 +93,36 @@
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
+
+        <activity android:name="bangalore.bms.billbookonline.PreviewTemplate" />
+        <activity android:name="bangalore.bms.billbookonline.Services_Charges" >
+            <intent-filter>
+                <action android:name="android.intent.action.N" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.Add_goods" >
+            <intent-filter>
+                <action android:name="android.intent.action.A" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.Goods_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.N" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="bangalore.bms.billbookonline.Ticket_generator" >
+            <intent-filter>
+                <action android:name="android.intent.action.NO" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
